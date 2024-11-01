@@ -1,0 +1,146 @@
+/* Customizer Dimension */
+.customize-control-bmp-dimensions > ul {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.customize-control-bmp-dimensions .bmp-dimension-wrap {
+    float: left;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.customize-control-bmp-dimensions .bmp-dimension-wrap input,
+.customize-control-bmp-dimensions .bmp-dimension-wrap button {
+    display: block;
+    font-size: 12px;
+    padding: 4px 0;
+    width: 100%;
+    height: 28px;
+    border: 1px solid;
+    border-color: #a4afb7;
+    border-left-width: 0;
+    border-radius: 0;
+    text-align: center;
+}
+
+.customize-control-bmp-dimensions .bmp-dimension-wrap:first-child input {
+    border-left-width: 1px;
+    border-radius: 3px 0 0 3px;
+}
+
+.customize-control-bmp-dimensions .bmp-dimension-wrap .bmp-dimension-label {
+    display: block;
+    color: #949698;
+    font-size: 10px;
+    padding-top: 5px;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.customize-control-bmp-dimensions .bmp-dimension-wrap input:focus + .bmp-dimension-label {
+    color: #42474a;
+}
+
+.customize-control-bmp-dimensions .bmp-dimension-wrap .bmp-link-dimensions {
+    background-color: #fff;
+    border: 1px solid #a4afb7;
+    border-left-width: 0;
+    padding: 0;
+    outline: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+.customize-control-bmp-dimensions .bmp-dimension-wrap .bmp-link-dimensions span {
+    display: block;
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.customize-control-bmp-dimensions .bmp-dimension-wrap .bmp-link-dimensions .bmp-linked {
+    background-color: #a4afb7;
+    color: #fff;
+}
+
+.customize-control-bmp-dimensions .bmp-dimension-wrap .bmp-link-dimensions.unlinked .bmp-unlinked {
+    display: none;
+}
+
+.customize-control-bmp-dimensions .bmp-dimension-wrap .bmp-link-dimensions.unlinked .bmp-linked {
+    display: block;
+}
+
+.customize-control-bmp-dimensions .bmp-dimension-wrap .bmp-link-dimensions .bmp-linked {
+    display: none;
+}
+
+.customize-control.has-switchers .customize-control-title {
+    display: flex;
+    line-height: 1;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customize-control.has-switchers .customize-control-title span {
+    line-height: 20px;
+}
+
+.customize-control .responsive-switchers {
+    margin-left: 5px;
+}
+
+.customize-control.responsive-switchers-open .responsive-switchers li {
+    display: block;
+}
+
+.customize-control .responsive-switchers li {
+    float: left;
+    margin: 0;
+}
+
+.customize-control .responsive-switchers li button {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: #a4afb7;
+    position: relative;
+    margin-left: 5px;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+.customize-control .responsive-switchers li button:hover {
+    background-color: #c2cbd2;
+}
+
+.customize-control .responsive-switchers li button.active {
+    background-color: #13aff0;
+}
+
+.customize-control .responsive-switchers li button i {
+    width: auto;
+    height: auto;
+    font-size: inherit;
+    line-height: 18px;
+}
+
+.customize-control.has-switchers > .control-wrap:not(.active) {
+    display: none;
+    width: 100%;
+}

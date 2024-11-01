@@ -1,0 +1,101 @@
+.media.post-thumb img {
+  width: 70px;
+  margin-right: 10px;
+}
+#blog-left-sidebar , #blog-right-sidebar , #full-width-blog , #maincontent , .page-left-right-sidebar {
+  padding-top: 3rem;
+}
+#achievements .achievements-details {
+  background-color: #ffffff;
+}
+
+/* ----------- Single Pages -------------- */
+#testimonial_single .social-profiles i {
+  color: #24272e;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 9px 12px 9px 0px;
+}
+#testimonial_single .team_feature-box img {
+  border-radius: 50%;
+}
+/*------------------ Single Testimonials -----------------*/
+#testimonial_single blockquote {
+  padding: 1.25em 40px;
+  color: #383838;
+  background: white;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+.meta_post span i {
+  background-color: #24272e;
+  padding: 7px;
+  color: white;
+  margin-right: 10px;
+}
+/* ----------------------- POST---------------------- */
+a.page-numbers, span.page-numbers.current {
+  padding: 10px !important;
+  background-color: #2434B3;
+  color: white !important;
+  border: 1px solid #2434B3;
+}
+.navigation span.page-numbers.current {
+  background-color: white;
+  border: 1px solid #2434B3;
+  color: black !important;
+}
+iframe {
+  width: 100%;
+}
+/*---------------- Pagination ----------------*/
+.navigation {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.navigation a {
+  padding: 0;
+}
+.navigation span, .navigation a {
+  display: block;
+  float: left;
+  padding: 10px 15px 0 15;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  color: var(--color-5b5b5b);
+  transition: background .15s ease-in-out;
+  font-weight: normal;
+}
+.navigation span.meta-nav {
+  font-weight: bold;
+}
+.navigation .current {
+  background: var(--color-333333);
+  color: white;
+  font-weight: normal;
+}
+.navigation {
+  padding-bottom: 30px;
+}
+.pagination a:hover {
+  background-color: #24272e !important;
+}
+.team_details span {
+  display: block;
+}
+.team_details {
+  margin: 20px 0;
+}
+.social-profiles a {
+  padding-right: 10px;
+}
+.social-profiles{
+  margin-bottom: 20px;
+}
+/* ==================  advance marketing agency =================== */
+#achievements .carousel-indicators li span {
+  margin: auto;
+}

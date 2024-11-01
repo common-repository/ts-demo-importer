@@ -1,0 +1,230 @@
+/* ==========================================================================
+   CSS for Customizer Custom Controls
+   ========================================================================== */
+
+/* ==========================================================================
+   Text Radio Buttons
+   ========================================================================== */
+.text_radio_button_control:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+.text_radio_button_control .radio-buttons {
+	display: inline-block;
+	border: 1px solid #f9f9fe;
+}
+.text_radio_button_control .radio-button-label {
+	cursor: pointer;
+	float: left;
+}
+.text_radio_button_control .radio-button-label > input {
+	display: none;
+}
+.text_radio_button_control .radio-button-label span {
+	cursor: pointer;
+	font-weight: 500;
+	border: 2px solid #f9f9fe;
+	margin: 0;
+	background-color: #eee;
+	padding: 5px 15px;
+	display: inline-block;
+}
+.text_radio_button_control .radio-button-label span:hover {
+	background-color: rgba(255, 255, 255, .2);
+	color: #2885bb;
+}
+.text_radio_button_control .radio-button-label > input:checked + span {
+	background-color: #2084bd;
+	color: #fff;
+}
+.text_radio_button_control .radio-button-label > input:checked + span:hover {
+	color: #fff;
+}
+/* ==========================================================================
+   Toggle Switch
+   ========================================================================== */
+.toggle-switch-control .customize-control-title {
+	display: inline-block;
+}
+.toggle-switch {
+	position: relative;
+	width: 64px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	float: right;
+}
+.toggle-switch .toggle-switch-checkbox {
+	display: none;
+}
+.toggle-switch .toggle-switch-label {
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+	border: 2px solid #ddd;
+	border-radius: 20px;
+	padding: 0;
+	margin: 0;
+}
+.toggle-switch-inner {
+	display: block;
+	width: 200%;
+	margin-left: -100%;
+	transition: margin 0.3s ease-in 0s;
+}
+.toggle-switch-inner:before,
+.toggle-switch-inner:after {
+	display: block;
+	float: left;
+	width: 50%;
+	height: 22px;
+	padding: 0;
+	line-height: 22px;
+	font-size: 14px;
+	color: white;
+	font-family: Trebuchet, Arial, sans-serif;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+.toggle-switch-inner:before {
+	content: "ON";
+	padding-left: 8px;
+	background-color: #2885bb;
+	color: #FFFFFF;
+}
+.toggle-switch-inner:after {
+	content: "OFF";
+	padding-right: 8px;
+	background-color: #EEEEEE;
+	color: #999999;
+	text-align: right;
+}
+.toggle-switch-switch {
+	display: block;
+	width: 16px;
+	margin: 3px;
+	background: #FFFFFF;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 38px;
+	border: 2px solid #ddd;
+	border-radius: 20px;
+	transition: all 0.3s ease-in 0s;
+}
+.toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-inner {
+	margin-left: 0;
+}
+.toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-switch {
+	right: 0px;
+}
+
+input#_customize-input-ts_demo_importer_slider_section_content_spacing {
+    display: none;
+}
+li#customize-control-ts_demo_importer_slider_section_slider_top_spacing, li#customize-control-ts_demo_importer_slider_section_slider_bottom_spacing, li#customize-control-ts_demo_importer_slider_section_slider_left_spacing, li#customize-control-ts_demo_importer_slider_section_slider_right_spacing {
+    width: 20%;
+    clear: none;
+    margin-right: 10px;
+}
+
+/* ==========================================================================
+   Google Fonts Select
+   ========================================================================== */
+.google_fonts_select_control .google-fonts,
+.google_fonts_select_control .weight-style {
+	margin-bottom: 10px;
+}
+
+/* ==========================================================================
+   Standard Selection
+   ========================================================================== */
+.customize-control select,
+.select2-container--default .selection .select2-selection--single {
+	border: none;
+	background-color: #fcfcff;
+	position: relative;
+	border-radius: 0;
+	height: 27px;
+	line-height: 27px;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.wp-customizer .select2-container--default .selection .select2-selection--multiple {
+	border: none;
+	background-color: #fcfcff;
+	border-radius: 0;
+	height: auto;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.wp-customizer .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+	width: 95%;
+}
+
+.wp-customizer .select2-container--default .select2-selection--multiple .select2-selection__clear {
+	position: absolute;
+	right: 0;
+}
+
+.wp-customizer .select2-container .select2-dropdown {
+	z-index: 900000;
+}
+
+.customize-control select:active,
+.customize-control select:focus {
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+select.google-fonts-regularweight-style {
+    display: none;
+}
+
+#customize-controls .control-section-ts-demo-importer .accordion-section-title:hover,
+#customize-controls .control-section-ts-demo-importer .accordion-section-title:focus {
+    background-color: #fff;
+}
+.control-section-ts-demo-importer .accordion-section-title .button {
+    margin-top:  -4px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+.rtl .control-section-ts-demo-importer .accordion-section-title .button {
+    margin-left:  0;
+    margin-right: 8px;
+}
+a.review_st {
+    background: #016194 !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+    border: none !important;
+}
+.customize-control-title
+{
+    background-color: transparent !important;
+    color: #222 !important;
+}
+.simple-seperator-custom-control .customize-control-title
+{
+    background-color: #0073aa !important;
+}
+#customize-theme-controls .customize-control-title{
+   padding: 0px !important;
+}
+#customize-theme-controls .simple-seperator-custom-control .customize-control-title
+{
+   padding: 0 15px !important; 
+}
+img.ts-radio-img-selected {
+    border: solid 2px #0085ba;
+}
+img.ts-radio-img-img {
+    width: 80px;
+    margin-right: 2px !important;
+}

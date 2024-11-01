@@ -1,0 +1,42 @@
+#customize-controls .control-section-ts-demo-importer .accordion-section-title:hover,
+#customize-controls .control-section-ts-demo-importer .accordion-section-title:focus {
+    background-color: #fff;
+}
+.control-section-ts-demo-importer .accordion-section-title .button {
+    margin-top:  -4px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+.rtl .control-section-ts-demo-importer .accordion-section-title .button {
+    margin-left:  0;
+    margin-right: 8px;
+}
+a.review_st {
+    background: #016194 !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+    border: none !important;
+}
+.customize-control-title
+{
+    background-color: transparent !important;
+    color: #222 !important;
+}
+.simple-seperator-custom-control .customize-control-title
+{
+    background-color: #0073aa !important;
+}
+#customize-theme-controls .customize-control-title{
+   padding: 0px !important;
+}
+#customize-theme-controls .simple-seperator-custom-control .customize-control-title
+{
+   padding: 0 15px !important;
+}
+img.ts-radio-img-selected {
+    border: solid 2px #0085ba;
+}
+img.ts-radio-img-img {
+    width: 80px;
+    margin-right: 2px !important;
+}

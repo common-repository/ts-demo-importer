@@ -1,0 +1,46 @@
+/* Customizer Tabs */
+.bmp-customizer-tabs {
+    background: #FFF;
+    display: flex;
+    border-bottom: 3px solid #0073aa;
+}
+
+.bmp-customizer-tabs a {
+    padding: 12px 8px;
+    color: #0073aa;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: 0;
+    box-shadow: none;
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.bmp-customizer-tabs a:hover{
+    background: #0073aa;
+    color: white;
+}
+
+.bmp-customizer-tabs a:hover .bmp-customizer-tabs a span{
+    color: white;
+}
+
+.bmp-customizer-tabs a.active {
+    background: #0073aa;
+    color: #fff;
+}
+
+.bmp-customizer-tabs a span{
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1;
+    transition: none;
+    margin-bottom: 3px;
+}

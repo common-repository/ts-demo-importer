@@ -1,0 +1,275 @@
+@media screen and (max-width:1399px) and (min-width:1301px) {
+ #slider .slider-heading{
+    max-width: 76%;
+  }
+  #slider .slider-heading{
+    font-size: 50px;
+  }
+  .founder .founder-left-content h2 {
+    width: 76%;
+}
+  
+}
+@media screen and (max-width:1300px) and (min-width:1201px) {
+ #slider .slider-heading{
+    max-width: 76%;
+  }
+  #slider .slider-heading{
+    font-size: 50px;
+  }
+  .founder .founder-left-content h2 {
+    width: 76%;
+}
+  
+}
+
+
+@media screen and (max-width:1300px) {
+  #slider .slider-heading{
+    font-size: 50px;
+  }
+  h3.course-title a{
+    font: 600 21px/26px var(--font-source-serif);
+  }
+  .founder .founder-left-content h2 {
+    max-width: 90%;
+  }
+
+}
+@media screen and (min-width:1024px) and (max-width:1040px) {
+  h3.latest-post-title{
+    line-height: 0px;
+  }
+  .read-bot{
+    padding-bottom: 15px;
+  }
+}
+@media screen and (min-width:1041px) and (max-width:1200px) {
+  #slider .slider-heading{
+    max-width: 100% !important;
+  }
+}
+@media screen and (max-width:1040px) {
+  .service-main-box{
+    top: -35px;
+  }
+  .servicestitle a{
+    font: 600 20px/30px var(--font-source-serif);
+  }
+  p{
+    font-size: 14px !important;
+    line-height: 24px !important;
+  }
+  .owl-nav, .owl-dot{
+    text-align: center;
+    margin-block: 10px;
+  }
+  #slider .slider-heading{
+    max-width: 100%;
+  }
+}
+@media screen and (min-width:991px){
+  /*.founder .founder-left-content h2{
+    width: 89%;
+  }*/
+  .founder .founder-left-content .founder-text{
+    width: 88%;
+  }
+  .servicesbox-content p{
+    width: 91%;
+  }
+  p.annual-event-text{
+    width: 71%;
+  }
+
+}
+@media (min-width:768px) and (max-width: 991px) {
+  #slider .inner_slide{
+    max-width: 90%;
+  }
+  #slider .slider-heading{
+    font-size: 40px;
+  }
+  .annual_meetup-boxes > div:not(.countdown){
+    justify-content: center;
+  }
+  .annual_meetup-boxes > div:not(.countdown) > div{
+    display: flex;
+    margin-block-end: 10px;
+  }
+  #slider .slider-heading{
+    max-width: 100%;
+  }
+  .events-start-time{
+    padding-left: 10px;
+  }
+  .founder .founder-left-content h2{
+    max-width: 100%;
+  }
+  .about-right-image-bg{
+    background-size: 75% 92%;
+  }
+  .about-box {
+    padding: 12px 15px 29px;
+  }
+  .Personalized-support .counter-main-heading{
+    font-size: 30px;
+  }
+  .Personalized-support .counter-value, .Personalized-support .counter_suffix{
+    font-size: 55px;
+  }
+  #upcoming-events .slick-slide img{
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width:767px) {
+  #slider .inner_slide{
+    max-width: 100%;
+  }
+  #slider .slider-heading{
+    font-size: 18px;
+  }
+  #slider .slide_p, #our-services .owl-nav{
+    display: none;
+  }
+  #slider a.slider-button{
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+  .service-main-box{
+    top: 0;
+  }
+  #slider .carousel-indicators [data-bs-target]{
+    margin: 0;
+  }
+  #slider .slide_nav .carousel-prev-button, #slider .slide_nav .carousel-next-button{
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+  }
+  #slider .slide_nav :is(.carousel-control-next-icon, .carousel-control-prev-icon){
+    height: unset;
+    width: unset;
+  }
+  #slider .slide_nav .carousel-next-button{
+    top: calc(50% - 30px);
+  }
+  #slider .slide_nav .carousel-prev-button {
+    bottom: calc(50% - 30px);
+  }
+  .about-left-content{
+    flex: 0 0 100%;
+  }
+  #about-us .about-right-image-bg{
+    background-image: none !important;
+  }
+  .Personalized-support .counter-main-heading, section h2, .about-box .about-main-heading{
+    font: bold 28px/34px var(--font-source-serif) !important;
+  }
+  .Personalized-support .counter-value, .Personalized-support .counter_suffix{
+    font-size: 50px;
+  }
+  .Personalized-support .owl-dots, #our-services .owl-dots{
+    text-align: center;
+  }
+  .founder {
+    background: linear-gradient(to right, #baa68b 1%, #f6f3ee 0% 100%, #fff 66%);
+  }
+  .annual_meetup-boxes{
+    top: unset;
+  }
+  .about-box a, .upcoming-view-all-btn{
+    margin-inline: auto;
+  }
+  .contact-us-left-content .contact-page-heading{
+    font: 600 24px/26px Open Sans !important;
+  }
+  .contact-us-right-content{
+    margin-block-start: 20px;
+  }
+  #our-services .servicesbox{
+    text-align: center;
+  }
+  #our-services .servicesbox img{
+    margin: 0 auto;
+  }
+  .modal-contents{
+    width: 90%;
+  }
+  #slider .slider-heading{
+    max-width: 100%;
+  }
+  .founder .founder-left-content h2{
+    max-width: 100%;
+  }
+}
+@media screen and (max-width:575px)  {
+  .contact-us-box{
+    padding: 13px;
+  }
+}
+@media screen and (max-width: 576px){
+  .Personalized-support .counter-main-heading, section h2, .about-box .about-main-heading{
+    font: bold 24px/34px var(--font-source-serif) !important;
+  }
+  #all-program{
+    margin-top: -15px;
+  }
+  .video-content-box{
+    width: 100%;
+  }
+  .video-title p{
+    display: none;
+  }
+  .countdown > span b{
+    font-size: 26px;
+  }
+  #upcoming-events .container > div.d-flex{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .right-box-content ul{
+    display: none;
+  }
+  .annual-content-container .events-start-date,.postbox-content{
+    text-align: center;
+  }
+  #annual-meetup {
+    margin-block: 50px 20px;
+  }
+  .contact-us-box .contact-us-left-content{
+    text-align: center;
+  }
+  .contact-us-left-content p{
+    padding-inline-end: 0px;
+  }
+  .contact-us-right-content form input[type="submit"]{
+    display: block;
+    margin: auto;
+  }
+}
+@media screen and  (min-width:576px) {
+  .upcoming-left-content .events-meta{
+    width: 75%;
+    margin: 0 auto;
+  }
+  .contact-us-box{
+    padding: 30px 45px !important;
+  }
+
+
+}
+@media screen and (max-width:400px)  {
+  .annual_meetup-boxes > div:not(.countdown){
+    justify-content: center;
+    gap: 15px;
+  }
+  .readmore_comment_link > div  > div{
+    margin: 4px auto;
+  }
+  .right-box-content ul{
+    display: none;
+  }
+}
